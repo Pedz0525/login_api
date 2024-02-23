@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random API   </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header class="head">
+        <h1>Activity #1</h1>
+        <h2>Random API</h2>
+        <a href="../index.html" class="back-button">Logout</a>
+    </header>
+    <div class="mytabs">
+
+
+        <input type="radio" id="tabdog" name="mytabs" checked="checked">
+        <label for="tabdog" class="label">Dog</label>
+        <div class="tab">
+            <h2>Random Dog Image</h2>
+            <div class="img-dog" id="img-dog"></div>
+            <button class="btn-dog" id="btn-dog"></button>
+        </div>
+
+        <input type="radio" id="tabcat" name="mytabs"   >
+        <label for="tabcat" class="label">Cat</label>
+        <div class="tab">
+            <h2>Random Cat Image</h2>
+            <div class="img-cat" id="img-cat"></div>
+            <button class="btn-cat" id="btn-cat"></button>
+        </div>
+
+        <input type="radio" id="tabquotes" name="mytabs" >
+        <label for="tabquotes" class="label">Quotes</label>
+        <div class="tab">
+            <h2>Random Quotes </h2>
+            <div class="img-quote" id="quote"></div>
+            <button class="btn-quotes" id="quotes_btn"></button>
+        </div>
+    </div>
+    <span>
+        <audio id="dog_bark_audio"><source src="Dog Bark Sound Effect HD [No Copyright].mp3" type="audio/mpeg"></audio>
+        <audio id="cat_meow_audio"><source src="Meow Sound Effect.mp3" type="audio/mpeg"></audio>
+        <audio id="quotes_audio"><source src="Book Flipping Sound Effect.mp3" type="audio/mpeg"></audio></span>
+
+    <footer class="foot">Submitted by: Pedrito M. Parrilla BSIT-2A</footer>
+    <script src="api.js"></script>
+    <script src="sounds.js"></script>
+    <script src="bodyimage.js"></script>
+</body>
+</html>
