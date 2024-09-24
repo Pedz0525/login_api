@@ -6,7 +6,7 @@ document.getElementById("loginform").addEventListener("submit", function(event){
 
     if(username === "admin" && password === "sectionA") {
         alert("Login Successful");
-        window.location.href = "../api/api.html";
+        window.location.href = "api.html";
     } else if (username === "admin1" && password === "section") {
         alert("Login Successful");
         window.location.href = "../api/api.html";
